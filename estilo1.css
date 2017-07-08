@@ -1,0 +1,245 @@
+body{
+	margin: 40px auto;
+	background: #e8e8e8;
+}
+.contenido {
+	position: relative;
+	overflow: hidden;
+	width: 600px;
+	height: 30px;
+	line-height: 30px;
+	margin: 50px auto;
+	border-radius: 8px;
+	background: gray;
+}
+.contenido ul{
+	list-style: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+}
+.contenido ul li{
+	display: inline;
+	width: 25%;
+	box-sizing: border-box;
+	font-size: 18px;
+}
+.contenido ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+.marca{
+	position: absolute;
+	bottom: 2px;
+	left: -202.5%;
+	width: 30%;
+	height: 4px;
+	background: blue;
+	transition: 0.3s ease-in-out;
+}
+.marca1{
+	position: absolute;
+	bottom: 2px;
+	right: -202.5%;
+	width: 30%;
+	height: 4px;
+	background: blue;
+	transition: 0.3s ease-in-out;
+}
+.contenido ul li:nth-child(1):hover ~ .marca{
+	left: 35%;
+}
+.contenido ul li:nth-child(1):hover ~ .marca1{
+	right: 35%;
+}
+
+
+.marca2{
+	position: absolute;
+	bottom: 2px;
+	left: 50%;
+	width: 0%;
+	height: 4px;
+	background: blue;
+	transition: 0.3s ease-in-out;
+}
+.contenido ul li:nth-child(1):hover ~ .marca2{
+	left: 35%;
+	width: 30%;
+	height: 4px;
+}
+
+
+.marca4{
+	position: absolute;
+	bottom: 2px;
+	left: -202%;
+	width: 30%;
+	height: 4px;
+	background: blue;
+	transition: 0.3s ease-in-out;
+}
+.marca5{
+	position: absolute;
+	top: 0px;
+	right: -202%;
+	width: 30%;
+	height: 4px;
+	background: blue;
+	transition: 0.3s ease-in-out;
+}
+.contenido ul li:nth-child(1):hover ~ .marca4{
+	left: 35%;
+}
+.contenido ul li:nth-child(1):hover ~ .marca5{
+	right: 35%;
+}
+
+
+.marca6{
+	position: absolute;
+	bottom: 2px;
+	left: 50%;
+	width: 0%;
+	height: 4px;
+	background: blue;
+	transition: 0.3s ease-in-out;
+}
+.marca7{
+	position: absolute;
+	top: 0px;
+	right: 50%;
+	width: 0%;
+	height: 4px;
+	background: blue;
+	transition: 0.3s ease-in-out;
+}
+.contenido ul li:nth-child(1):hover ~ .marca6{
+	left: 35%;
+	width: 30%;
+	height: 4px;
+}
+.contenido ul li:nth-child(1):hover ~ .marca7{
+	left: 35%;
+	width: 30%;
+	height: 4px;
+}
+
+.marca8{
+	position: absolute;
+	top: 0px;
+	left: 60%;
+	width: 0%;
+	height: 4px;
+	background: blue;
+	transition: 0.3s ease-in-out;
+}
+.marca9{
+	position: absolute;
+	top: 0px;
+	left: 60%;
+	width: 0%;
+	height: 4px;
+	background: blue;
+	transition: 0.3s ease-in-out;
+}
+.marca10{
+	position: absolute;
+	bottom: 1.5px;
+	left: 35%;
+	width: 0%;
+	height: 4px;
+	background: blue;
+	transition: 0.3s ease-in-out;
+}
+.marca11{
+	position: absolute;
+	bottom: 1.5px;
+	left: 35%;
+	width: 0%;
+	height: 4px;
+	background: blue;
+	transition: 0.3s ease-in-out;
+}
+.contenido ul li:nth-child(1):hover ~ .marca8{
+	left: 60%;
+	width: 4px;
+	height: 30px;
+}
+.contenido ul li:nth-child(1):hover ~ .marca9{
+	left: 35%;
+	width: 25%;
+	height: 4px;
+}
+.contenido ul li:nth-child(1):hover ~ .marca10{
+	right: 35%;
+	width: 25%;
+	height: 4px;
+}
+.contenido ul li:nth-child(1):hover ~ .marca11{
+	left: 35%;
+	width: 4px;
+	height: 25px;
+}
+
+
+.marca12{
+	position: absolute;
+	bottom: 1.5px;
+	right: 35%;
+	width: 0%;
+	height: 4px;
+	background: blue;
+	transition: 0.3s ease-in-out;
+}
+
+.marca13{
+	position: absolute;
+	bottom: 1.5px;
+	left: 35%;
+	width: 0%;
+	height: 4px;
+	background: blue;
+	transition: 0.3s ease-in-out;
+}/*
+.marca14{
+	position: absolute;
+	top: 0px;
+	left: 60%;
+	width: 0%;
+	height: 4px;
+	background: blue;
+	transition: 0.3s ease-in-out;
+}
+.marca15{
+	position: absolute;
+	bottom: 1.5px;
+	left: 35%;
+	width: 0%;
+	height: 4px;
+	background: blue;
+	transition: 0.3s ease-in-out;
+}*/
+
+.contenido ul li:nth-child(1):hover ~ .marca12{
+	right: 35%;
+	width: 30%;
+	height: 4px;
+}
+.contenido ul li:nth-child(1):hover ~ .marca13{
+	left: 35%;
+	width: 25%;
+	height: 4px;
+}/*
+.contenido ul li:nth-child(1):hover ~ .marca14{
+	right: 35%;
+	width: 25%;
+	height: 4px;
+}
+.contenido ul li:nth-child(1):hover ~ .marca15{
+	left: 35%;
+	width: 4px;
+	height: 25px;
+}
+*/
